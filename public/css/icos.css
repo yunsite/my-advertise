@@ -1,0 +1,43 @@
+@CHARSET "UTF-8";
+.lsIco{	
+	background-image:url('/public/images/icos.png');
+	display:inline-block;
+	width:15px;
+	height:15px;
+
+	
+}
+
+/***内容方式 Start****/
+.lsDisplayTable{
+	background-position:-23px -1268px;
+}
+.lsDisplayBlock{
+	background-position:-43px -1269px;
+}
+.lsDisplayMiddel{
+	background-position:-68px -1269px;
+}
+.lsDisplayList{
+	background-position:-91px -1269px;
+}
+.lsDisplayBlockList{
+	background-position:-119px -1269px;
+}
+.lsDisplayFull{
+	background-position:-24px -1293px;	
+}
+.lsDisplayBlockIcos{
+	background-position:-44px -1293px;
+}
+/*****内容显示 End****/
+
+
+.lsDebug{
+	width:354px;
+	height:274px;	
+	background-position:-88px -2588px;
+	overflow:hidden;
+	background-color:yellow;	
+	border:1px solid black;
+}

@@ -1,0 +1,8 @@
+ul.yiiPager{
+    clear:both;
+    width:100%;
+}
+ul.yiiPager li{
+    border:0px;
+}
+

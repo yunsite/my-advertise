@@ -1,0 +1,66 @@
+@CHARSET "UTF-8";
+#templateContainer
+{
+
+}
+#templateHeader
+{
+	margin:0;
+	padding:0;
+	height:358px;
+	background:url(/public/images/templates/module_20_hd.jpg) center;
+}
+
+#templateBody
+{
+	background:#e9dcca;
+}
+#templateBody .templateview
+{
+	padding: 10px;
+	margin: 0 0 10px 0;
+}
+
+#templateBody .templateview .imgHolder_1
+{
+	background:url(/public/images/templates/module_19_item3.png) no-repeat;
+	padding:40px 20px 50px 60px;
+	height:200px;
+}
+
+.imgHolder_2
+{
+	background:url(/public/images/templates/module_19_item.png) no-repeat;
+	margin-top:20px;
+	padding:20px 20px 20px 20px;
+	height:210px;
+}
+
+#templateBody .templateview .contentHolder
+{
+	padding-top:20px;
+}
+
+#templateBody .templateview .contentHolder input,#templateBody .templateview .contentHolder textarea
+{
+	background:transparent;
+	width:100%;
+	height:24px;
+	font-size:18px;
+	border:1px dashed white;
+	padding:5px;
+}
+#templateBody .templateview .contentHolder textarea
+{
+	font-size:12px;
+	width:100%;
+	height:200px;
+	border:1px dashed white;
+	padding:5px;
+	margin-top:10px;
+}
+#templateBody .templateview .contentHolder input:focus,
+#templateBody .templateview .contentHolder textarea:focus
+{
+	border:1px dashed grey;
+}

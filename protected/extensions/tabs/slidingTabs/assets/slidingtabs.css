@@ -1,0 +1,80 @@
+@CHARSET "UTF-8";
+
+/****Moving Tabs****/
+
+ .moving_tab 
+{
+  overflow:hidden;
+  width:630px;
+  position:relative
+  border:1px solid #ccc; 
+  margin:0 auto;
+}
+ 
+  .moving_tab .tabs 
+{
+   position:relative; 
+   height:30px;
+   padding-top:5px;
+   cursor:default;
+}
+ 
+  .moving_tab .tabs .item 
+{
+   position:relative;
+   z-index:10;
+   float:left;
+   display:block;
+   width:150px;
+   text-align:center;
+   font-size:14px;
+   font-weight:700; 
+}
+
+  .moving_tab .tabs .lava 
+{
+   position:absolute;
+   top:0; left:0;
+   z-index:0;  
+   width:150px;
+   height:30px;
+   background:#abe3eb;
+
+}
+  
+  .moving_tab .content 
+{
+   position:relative;
+   overflow:hidden;
+   
+   border-top:1px solid #d9fafa;
+}
+  
+  .moving_tab .panel 
+{
+   position:relative;
+   width:2520px;
+}
+/**  
+  .moving_tab .panel ul 
+{
+   float:left;
+   width:630px;
+   padding:0;
+   margin:0;
+   list-style:none;
+}
+   .moving_tab .panel ul li 
+{
+    padding:5px 0 5px 10px; 
+    border-bottom:1px dotted #fff;
+}
+*/
+.moving_tab .panel .tab_box
+{
+   float:left;
+   width:630px;
+   padding:0;
+   margin:0;
+   list-style:none;	
+}

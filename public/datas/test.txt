@@ -1,0 +1,3 @@
+uploadPath:./public/uploadfiles/
+fileSize:1000
+
