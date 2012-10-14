@@ -1,0 +1,16 @@
+@CHARSET "UTF-8";
+
+@font-face{
+	font-family:TTF;	
+	color:#3e1cd2;
+	src:url(/public/KUNSTLER.EOT);
+	src:url(/public/KUNSTLER.EOT?#iefix)format('embedded-opentype'),
+		url(/public/KUNSTLER.TTF) format('truetype')
+}
+
+@font-face{
+	font-family:QINGYUN;
+	src:url(/public/QINGYUN.EOT);
+	src:url(/public/QINGYUN.EOT?#iefix)format('embedded-opentype'),
+		url(/public/QINGYUN.TTF) format('truetype')
+}

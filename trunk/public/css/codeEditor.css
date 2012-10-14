@@ -1,0 +1,172 @@
+@CHARSET "UTF-8";
+.CodeMirror {
+    border: 1px solid #eee;
+}
+.CodeMirror-scroll,.codeeditor {
+    height: auto;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+
+.codeeditor span{
+    font-weight:bold;
+}
+#control {
+    height: 35px;
+    width: 100%;
+    -moz-border-radius: 5px;    	 
+	-webkit-border-radius:  5px; 
+	border-radius:  5px;
+       
+    border-bottom: 1px solid #aaa;
+    background: -moz-linear-gradient(top, rgba(0,0,0,0) 0, rgba(0,0,0,0.15) 50%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0,rgba(0,0,0,0)), color-stop(50%,rgba(0,0,0,0.15))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0,rgba(0,0,0,0.15) 50%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(0,0,0,0) 0,rgba(0,0,0,0.15) 50%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(0,0,0,0) 0,rgba(0,0,0,0.15) 50%); /* IE10+ */
+    background: linear-gradient(top, rgba(0,0,0,0) 0,rgba(0,0,0,0.15) 50%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#26000000',GradientType=0 ); /* IE6-9 */
+    background-color: #fff;
+}
+#control ul{
+ 
+    height:25px;
+  
+}
+#control #panels{
+    margin-left:250px;
+    width:270px;  
+}
+#control ul.input{
+    margin-top:8px;
+
+}
+#control ul li{
+    float:left;
+    list-style:none;
+}
+#panels li a{
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: -moz-use-text-color transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid #CCCCCC;
+    border-style: none solid;
+    border-width: 0 1px;
+    display: inline-block;
+    font-size: 13px;
+    height: 23px;
+    line-height: 25px;
+    margin: 0;
+    padding: 6px 10px;
+    position: relative;
+    text-decoration: none;    
+} 
+#panels li a.first{
+    border-left: 1px solid #CCCCCC;
+}
+#panels li a:hover,#panels li a.active{
+    background:white;
+}
+
+#themepreview{
+    width:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.codeToolBar{
+	border: 1px solid #C0C0C0;  	  
+	-moz-border-radius: 10px 10px 0px 0px;    	 
+	-webkit-border-radius:  10px 10px 0px 0px; 
+	border-radius:  10px 10px 0px 0px;
+	background:white;
+    height:34px;
+	
+	-moz-box-shadow: 0px 12px 20px grey; /* Firefox */
+	-webkit-box-shadow: 0px 12px 20px grey; /* Safari and Chrome */
+	box-shadow: 0px 12px 20px grey; /* Opera 10.5+, future browsers and IE6+ using IE-CSS3 */   
+	behavior:url('/public/css/ie-css3.htc');    
+}
+.codeToolBar span{
+    display:inline-block;
+   	border: 1px solid #C0C0C0;  	  
+	-moz-border-radius: 5px;    	 
+	-webkit-border-radius:  5px; 
+	border-radius:  5px; 
+	padding:2px;
+    margin: 5px 2px;
+	text-shadow: rgba(0, 0, 0, 0.25) 3px 1px 3px;
+	-moz-box-shadow: 0px 2px 2px gray; /* Firefox */
+	-webkit-box-shadow: 0px 2px 2px gray; /* Safari and Chrome */
+	box-shadow: 0px 1px 2px gray; /* Opera 10.5+, future browsers and IE6+ using IE-CSS3 */ 
+	color:gray;
+}
+
+.codeEditor_dataBox{
+	width:696px;
+	-moz-border-radius:0 5px; 
+	background-color:white;
+	position:absolute;
+	left:30px;
+	z-index: 999999;
+	padding:10px;
+	line-height:1.5em;
+	display:none;
+}
+
+.codeEditor_closeButton{
+	background:transparent url(/public/images/close.png) no-repeat center center;
+    width:30px;
+    height:30px;
+    right:-15px;
+    bottom:-15px;
+    position:absolute;
+    cursor:pointer;	
+}
+
+
+.codeToolIco{
+	width:18px;
+	height:18px;
+	background-image: url('/public/images/codeEditorIcos.jpg');
+	display:inline-block;    
+}
+.codeToolIco:hover{
+	cursor:pointer;
+	border: 1px solid green;  
+}
+.codeToolIco.first{
+	margin-left:5px;
+}
+.codeToolIcoPrev{
+    background-position:-15px 3px;	
+}
+.codeToolIcoNext{
+    background-position:2px 3px;
+}
+.codeToolIcoSave{
+    background-position:-33px 3px;
+}
+.codeToolIcoInsert{
+    background-position:2px -14px;
+}
+.codeToolIcoUpdate{
+    background-position:-51px 3px;
+}

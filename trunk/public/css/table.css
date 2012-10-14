@@ -1,0 +1,33 @@
+.grid table{
+    border:0 solid #000;
+    border-collapse:separate;
+    border-spacing:0;
+}
+.grid >th, td {vertical-align:middle;}
+.grid table thead tr th{
+    font: bold 11px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; 
+    color: #4f6b72; 
+    border:0; 
+    border-bottom: 3px solid #C1DAD7; 
+    letter-spacing: 2px; 
+    text-transform: uppercase; 
+    text-align: left; 
+    padding: 6px 6px 6px 12px; 
+    margin:0px;
+    background: white no-repeat; 
+}
+.grid table tbody tr td{
+    padding:5px;
+}
+.grid table tbody tr.even{
+    background:white;
+}
+.grid table tbody tr.odd{
+    background:#E8E8E8;
+}
+.grid table tbody tr.selected{
+    background:grey;
+}
+.grid table tbody tr:hover{
+    background:#D0D0D0;
+}

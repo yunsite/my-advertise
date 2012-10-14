@@ -1,0 +1,211 @@
+@CHARSET "UTF-8";
+.section {
+	width: 100%;
+/*	background: #FFF;*/
+	margin: 20px 10px ;
+}
+ul.tabs {
+	height: 28px;
+	line-height: 25px;
+	list-style: none;
+	border-bottom: 1px solid #DDD;
+/*	background: #EFEFEF;*/
+	padding:0px;
+	margin:0px;
+}
+.tabs li {
+	float: left;
+	display: inline;
+	margin: 0 1px -1px 0;
+	padding: 0 13px 1px;
+	color: #777;
+	cursor: pointer;
+/*	background: #F9F9F9;*/
+	border: 1px solid #E4E4E4;
+	border-bottom: 1px solid #F9F9F9;
+	position: relative;
+}
+.tabs li:hover,
+.vertical .tabs li:hover {
+	color: #F70;
+	padding: 0 13px;
+/*	background: #FFFFDF;*/
+	border: 1px solid #FFCA95;
+}
+.tabs li.current {
+	color: #444;
+/*	background: #EFEFEF;*/
+	padding: 0 13px 2px;
+	border: 1px solid #D4D4D4;
+	border-bottom: 1px solid #EFEFEF;
+}
+.box {
+	display: none;
+	border: 1px solid #CCC;
+    border-width: 0 1px 1px;
+/*	background: #EFEFEF;*/
+    background:transparent;
+	padding: 5px;
+    margin:0px;
+}
+.box.visible {
+	display: block;
+}
+
+.section.vertical {
+	width: 440px;
+	border-left: 0px solid #FFF;
+	padding-left:0px;
+	margin:0px;
+}
+
+.vertical .tabs {
+	width: 160px;
+	float: left;
+	display: inline;
+	padding:0;
+	margin:0;
+
+}
+
+
+.vertical .tabs li {
+	padding: 0 13px;
+	margin: 0 0 1px;
+	border: 1px solid #E4E4E4;
+	border-right: 1px solid #F9F9F9;
+	width: 132px;
+	height: 25px;
+}
+.vertical .tabs li:hover {
+	width: 131px;
+}
+.vertical .tabs li.current {
+	width: 133px;
+	color: #444;
+	background: #EFEFEF;
+	border: 1px solid #D4D4D4;
+	border-right: 1px solid #EFEFEF;
+	margin-right: -1px;
+}
+.vertical .box {
+  border: none;
+  margin-left:160px;
+  padding:2px;
+}
+
+/****Moving Tabs****/
+
+ .moving_tab 
+{
+  overflow:hidden;
+  width:630px;
+  position:relative;
+  border:1px solid #ccc; 
+  margin:0 auto;
+}
+ 
+  .moving_tab .tabs 
+{
+   position:relative; 
+   height:30px;
+   padding-top:5px;
+   cursor:default;
+}
+ 
+  .moving_tab .tabs .item 
+{
+   position:relative;
+   z-index:10;
+   float:left;
+   display:block;
+   width:150px;
+   text-align:center;
+   font-size:14px;
+   font-weight:700; 
+}
+
+  .moving_tab .tabs .lava 
+{
+   position:absolute;
+   top:0; left:0;
+   z-index:0;  
+   width:150px;
+   height:30px;
+   background:#abe3eb;
+
+}
+  
+  .moving_tab .content 
+{
+   position:relative;
+   overflow:hidden;
+   
+   border-top:1px solid #d9fafa;
+}
+  
+  .moving_tab .panel 
+{
+   position:relative;
+   width:2520px;
+}
+/**  
+  .moving_tab .panel ul 
+{
+   float:left;
+   width:630px;
+   padding:0;
+   margin:0;
+   list-style:none;
+}
+   .moving_tab .panel ul li 
+{
+    padding:5px 0 5px 10px; 
+    border-bottom:1px dotted #fff;
+}
+*/
+.moving_tab .panel .tab_box
+{
+   float:left;
+   width:630px;
+   padding:0;
+   margin:0;
+   list-style:none;	
+}
+
+/**jQuery TabPanel***/
+.jqueryTabPanel
+{
+	border:0px;	
+	font-size:12px;
+	background:transparent;
+	width:100%;
+	margin:0px;
+	padding:0px;
+}
+.jqueryTabPanel .ui-tabs-nav
+{
+	border:0px;
+	border-bottom:1px solid grey;
+	background:transparent;
+}
+
+.jq_panels{
+	background:white;
+	padding:5px;
+	margin-bottom:30px;
+	border:1px solid #e9e9e9;
+		
+	border-radius:10px 10px;  Opera 10.5+, /**future browsers, and now also Internet Explorer 6+ using IE-CSS3*/ 
+	-moz-border-radius: 5px 10px\9;
+	-moz-border-radius: 10px 10px; /* Firefox*/ 
+	-webkit-border-radius:10px 10px; /* Safari and Chrome */
+	
+	-moz-box-shadow: 2px 2px 4px grey; /* Firefox */	
+	-moz-box-shadow:0 0 0 grey\9;
+	-webkit-box-shadow: 2px 2px 4px grey; /* Safari and Chrome */
+	box-shadow: 2px 2x 4px grey; /* Opera 10.5+, future browsers and IE6+ using IE-CSS3 */
+
+	behavior: url('/public/css/ie-css3.htc'); /* This lets IE know to call the script on all elements which get the class */
+		
+}

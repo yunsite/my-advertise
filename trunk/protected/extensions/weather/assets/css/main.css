@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+.julyingWather{ position:absolute; top:0; left:0; width:100%; height:260px; z-index:1;}
+.julyingWather div{position:absolute;  cursor: pointer; _background:none;}
+.julyingWather div.child0{top:0;right:20px; width:175px; height:120px;}
+.julyingWather div.child1{ right:300px;top:50px;width:124px; height:85px;z-index:2;}
+
+
+.julyingWather i{position:absolute; display:block; width:9px; height:15px;}
+.julyingWather .rain i{width:7px; height:15px;}
+.julyingWather .snow i{width:13px; height:15px;}

@@ -1,0 +1,61 @@
+@CHARSET "UTF-8";
+#page {
+    background: url("../images/flowers-right.png") no-repeat fixed 100% -174px transparent;
+    height: 100%;
+    margin: 0;
+    padding: 0 7%;
+    overflow: hidden;
+    width: 85%;
+}
+#page .page-button
+{
+	height:30px;
+	width:12px;
+	top:300px;
+	padding:10px;
+	position:absolute;	
+}
+#page .page-button:hover
+{
+	background-color:#000;
+}
+#page-prev
+{
+	background:grey url(/public/images/prev.png) no-repeat center center;
+	left:20px;
+	z-index:100000;
+}
+#page-next
+{
+	background:grey url(/public/images/next.png) no-repeat center center;
+	right:20px;
+	top:300px;
+	padding:10px;
+	position:absolute;
+	z-index:100001;
+	
+}
+
+#page-change
+{
+	top:105px;
+	right:0px;
+	z-index:100002;
+	position:absolute;
+}
+#page-change a:hover
+{
+	color:#fff;
+}
+#page-tools
+{
+	margin-top:-5px;
+	padding:0 5px;
+	text-align:right;
+	position:relative;
+	background:#E0E0E0;
+	border:yellow 1px solid;
+	border-top:0px;
+	height:100px;
+	display:none;
+}
